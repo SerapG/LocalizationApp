@@ -5,15 +5,19 @@ import { WebView as WebViewType } from 'react-native-webview';
 
 
 const WebViewScreen = () => {
-
+    //Backgroundcolor State
     const [color, setColor] = useState('lightblue');
+    //Webview bilesenine referans
     const webviewRef = useRef<WebViewType>(null);
 
+    //Loading State
     const [isLoaded, setIsLoaded] = useState(false);
 
+    //WebView'e renk enjekte eden fonksiyon
     const injectColor = (newColor: string) => {
-
+        //Arkaplan rengini degistiren JavaScript kodu
         const script = `document.body.style.backgroundColor = '${newColor}';`;
+        // Bu script'i WebView içine enjekte eder
         webviewRef.current?.injectJavaScript(script);
     };
 
