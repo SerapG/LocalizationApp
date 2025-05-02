@@ -1,11 +1,11 @@
 import React from 'react';
 import { LocalizationProvider } from './contexts/LocalizationContext';
-import HomeScreen from './screens/HomeScreen';
+import StackNavigator from './navigation/StackNavigator';
 
 const App = () => {
   return (
     <LocalizationProvider>
-      <HomeScreen />
+      <StackNavigator />
     </LocalizationProvider>
   );
 };
