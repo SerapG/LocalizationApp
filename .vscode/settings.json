@@ -1,0 +1,23 @@
+{
+    "files.exclude": {
+        "**/node_modules": true,
+        "**/android": true,
+        "**/ios": true,
+        "**/__tests__": true,
+        "**/.bundle": true,
+        "**/.expo": true,
+        "**/.vscode": true,
+        "**/babel.config.js": true,
+        "**/metro.config.js": true,
+        "**/jest.config.js": true,
+        "**/tsconfig.json": true,
+        "**/index.js": true,
+        "**/Gemfile": true,
+        "**/.watchmanconfig": true,
+        "**/.eslintrc.js": true,
+        "**/.prettierrc.js": true,
+        "**/package.json": false,
+        "**/yarn.lock": false,
+        "**/App.tsx": false
+    }
+}
