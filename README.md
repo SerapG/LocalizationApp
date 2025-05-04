@@ -1,3 +1,50 @@
+# 🌍 LocalizationApp
+
+Bu uygulama, **Patika.dev React Native Bootcamp** sürecinde eğitimin sonlarına yaklaşırken öğrendiğim bazı ileri seviye konuları deneyimlemek amacıyla geliştirilmiştir.
+
+## 🚀 Amaç
+
+Bu proje; React Native ile uygulama geliştirmenin ötesine geçip, günlük hayatta sıkça karşılaşılan bazı önemli konuları deneyimleme hedefiyle oluşturulmuştur. Uygulama içerisinde aşağıdaki konular pratiğe dökülmüştür:
+
+## 🧠 Öğrenilen ve Uygulanan Konular
+
+- 🌐 **Dil Değiştirme (Localization):**  
+  i18n yapısı kurularak uygulama içerisinde çoklu dil desteği sağlandı. Dinamik olarak dil değiştirme özelliği eklendi.
+
+- 🌐 **WebView Kullanımı:**  
+  Harici web sayfaları uygulama içinde güvenli şekilde açıldı. WebView Injection teknikleri üzerine çalışmalar yapıldı.
+
+- 🔠 **IBAN Input ve Doğrulama:**  
+  Giriş sırasında girilen IBAN numarasının formatlanması ve geçerliliğinin kontrolü sağlandı.
+
+- ⌨️ **Keyboard Aware Screen:**  
+  Klavye açıldığında form alanlarının görünürlüğünü koruyan yapılar (`KeyboardAvoidingView`, `TouchableWithoutFeedback`) uygulandı.
+
+- 🔄 **Veri Çekme ve Listeleme:**  
+  Axios ile API'den kullanıcı verileri çekildi.  
+  `FlatList` ile bu veriler ekranlara listelendi.  
+  Loading state ve yenileme butonu eklendi.
+
+## 🔧 Kullanılan Teknolojiler
+
+- React Native (TypeScript)
+- React Navigation
+- i18next (Localization)
+- Axios
+- WebView
+- JSONPlaceholder API (mock data)
+
+## 📌 Not
+
+Bu uygulama bir final projesi değil, öğrendiğim farklı teknolojileri **deneyip içselleştirmek amacıyla** oluşturulmuştur.  
+Kod yapısı sade tutulmuş, her ekran belirli bir konuyu test etmek üzere yapılandırılmıştır.
+
+
+
+
+
+
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
