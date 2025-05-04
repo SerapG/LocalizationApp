@@ -6,6 +6,7 @@ import IBANInputScreen from '../screens/IBANInputScreen';
 import LangChangeScreen from '../screens/LangChangeScreen';
 import WebViewScreen from '../screens/WebViewScreen';
 import LoginScreen from '../screens/LoginScreen';
+import UserListScreen from '../screens/UserListScreen';
 
 
 export type RootStackParamList = {
@@ -14,6 +15,7 @@ export type RootStackParamList = {
     Language: undefined;
     ColorWebView: undefined;
     Login: undefined;
+    UserList: undefined;
 };
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -28,6 +30,7 @@ const StackNavigator = () => {
                 <Stack.Screen name="IBAN" component={IBANInputScreen} />
                 <Stack.Screen name="ColorWebView" component={WebViewScreen} />
                 <Stack.Screen name="Login" component={LoginScreen} />
+                <Stack.Screen name="UserList" component={UserListScreen} />
             </Stack.Navigator>
         </NavigationContainer>
     );

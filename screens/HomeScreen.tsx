@@ -16,6 +16,8 @@ const HomeScreen = () => {
             <Button title="WebView" onPress={() => navigation.navigate('ColorWebView')} />
             <View style={styles.spacing} />
             <Button title="Login" onPress={() => navigation.navigate('Login')} />
+            <View style={styles.spacing} />
+            <Button title="UserList" onPress={() => navigation.navigate('UserList')} />
         </View>
     );
 };
