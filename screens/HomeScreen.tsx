@@ -12,6 +12,10 @@ const HomeScreen = () => {
             <Button title="Dili Değiştir" onPress={() => navigation.navigate('Language')} />
             <View style={styles.spacing} />
             <Button title="IBAN Doğrula" onPress={() => navigation.navigate('IBAN')} />
+            <View style={styles.spacing} />
+            <Button title="WebView" onPress={() => navigation.navigate('ColorWebView')} />
+            <View style={styles.spacing} />
+            <Button title="Login" onPress={() => navigation.navigate('Login')} />
         </View>
     );
 };
