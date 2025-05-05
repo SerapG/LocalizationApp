@@ -1,6 +1,6 @@
 import React, { createContext, useState, useEffect, useContext, ReactNode } from 'react';
-import en from '../localization/en.json';
-import tr from '../localization/tr.json';
+import en from '../localization/locales/en.json';
+import tr from '../localization/locales/tr.json';
 import { getStoredLanguage, storeLanguage } from '../utils/storage';
 
 

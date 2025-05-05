@@ -1,8 +1,10 @@
 import { StyleSheet, Text, View, TextInput, Button, Platform, Keyboard, ScrollView, TouchableWithoutFeedback, KeyboardAvoidingView } from 'react-native';
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const LoginScreen = () => {
 
+    const { t } = useTranslation();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
@@ -19,10 +21,10 @@ const LoginScreen = () => {
                 keyboardVerticalOffset={50}
             >
                 <ScrollView contentContainerStyle={styles.scrollContainer} keyboardShouldPersistTaps="handled">
-                    <Text style={styles.title}>Hoş Geldin!</Text>
+                    <Text style={styles.title}>{t('welcome')}</Text>
 
-                    <Text style={styles.fakeBox}>Bilgi Kutusu!</Text>
-                    <Text style={styles.fakeBox}> Uygulama Tanıtımı</Text>
+                    <Text style={styles.fakeBox}>{t('information')}</Text>
+                    <Text style={styles.fakeBox}> {t('promotion')}</Text>
                     <Text style={styles.fakeBox}>Güncellemeler</Text>
                     <Text style={styles.fakeBox}>Bize ulasin</Text>
                     <Text style={styles.fakeBox}>İçeriklerimiz</Text>
