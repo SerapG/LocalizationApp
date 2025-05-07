@@ -18,6 +18,8 @@ const HomeScreen = () => {
             <Button title="Login" onPress={() => navigation.navigate('Login')} />
             <View style={styles.spacing} />
             <Button title="UserList" onPress={() => navigation.navigate('UserList')} />
+            <View style={styles.spacing} />
+            <Button title="DateChallenge" onPress={() => navigation.navigate('DateChallenge')} />
         </View>
     );
 };
